@@ -6,6 +6,15 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 
 const HeroSection = () => {
+    const handleDownload = () => {
+        const downloadUrl = '/Resume.pdf';
+        const link = document.createElement('a');
+        link.href = downloadUrl;
+        link.setAttribute('download', 'Resume.pdf');
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return (
         <section className='lg:py-16'>
             <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -35,7 +44,7 @@ const HeroSection = () => {
                             <button className='px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-primary-600 to-secondary-700 hover:bg-slate-200 text-white'>Hire Me</button>
                         </Link>
                         <Link href="/">
-                            <button className='px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-primary-600 to-secondary-700 hover:bg-slate-900 text-white mt-3'>
+                            <button className='px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-br from-primary-600 to-secondary-700 hover:bg-slate-900 text-white mt-3' onClick={handleDownload}>
                                 <span className='block bg-[#121212] hover:bg-slate-900 rounded-full px-5 py-2'>Download CV</span>
                             </button>
                         </Link>

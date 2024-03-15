@@ -7,6 +7,15 @@ import { motion, useInView } from "framer-motion";
 const projectData = [
     {
         id: 1,
+        title: "AI Text Editor Website",
+        description: "Introducing our AI powered Text Editor – a versatile tool for transforming your text effortlessly! Edit your content with precision, whether it's converting to uppercase, lowercase, or even reversing the text.",
+        image: "/images/projects/textEditor.png",
+        tag: ["All", "Web", "Mobile"],
+        gitUrl: 'https://github.com/Gagan2601/text-editor',
+        previewUrl: 'https://text-editor-gagan2601.vercel.app/',
+    },
+    {
+        id: 2,
         title: "Amazon Clone Website",
         description: "Discover the ultimate online shopping experience with our Amazon Clone! From tech gadgets to fashion trends, explore a vast range of products in an intuitive, user-friendly interface.",
         image: "/images/projects/amazon_clone.png",
@@ -15,7 +24,7 @@ const projectData = [
         previewUrl: '',
     },
     {
-        id: 2,
+        id: 3,
         title: "Smart Brain Website",
         description: "Welcome to Smart Brain – your go-to for flawless facial detection in images! Uncover the power of cutting-edge technology as we seamlessly identify and analyze faces with precision.",
         image: "/images/projects/magic_brain.png",
@@ -24,7 +33,7 @@ const projectData = [
         previewUrl: 'https://brain-magic.netlify.app/',
     },
     {
-        id: 3,
+        id: 4,
         title: "iNotebook Website",
         description: "Meet iNotebook – your digital notepad for quick and easy note-taking. Jot down ideas effortlessly, stay organized, and have your thoughts at your fingertips.",
         image: "/images/projects/iNotebook.png",
@@ -33,7 +42,7 @@ const projectData = [
         previewUrl: '',
     },
     {
-        id: 4,
+        id: 5,
         title: "NetFilms Website",
         description: "Welcome to NetFilms – your ultimate guide to the hottest trends on Netflix! Dive into a curated collection of the latest and greatest videos, ensuring you're always in the know about the most talked-about content.",
         image: "/images/projects/netFilms.png",
@@ -42,23 +51,14 @@ const projectData = [
         previewUrl: 'https://net-films-next-ts.vercel.app/',
     },
     {
-        id: 5,
+        id: 6,
         title: "DailyNews Website",
         description: "Welcome to DailyNews, your global news hub offering a one-stop destination for updates from around the world. Dive into a diverse array of categories, from breaking headlines to in-depth features, ensuring you're well-informed on the latest events.",
         image: "/images/projects/newsapp.png",
         tag: ["All", "Web"],
         gitUrl: 'https://github.com/Gagan2601/newsapp',
         previewUrl: '',
-    },
-    {
-        id: 6,
-        title: "Text Editor Website",
-        description: "Introducing our Text Editor – a versatile tool for transforming your text effortlessly! Edit your content with precision, whether it's converting to uppercase, lowercase, or even reversing the text.",
-        image: "/images/projects/textEditor.png",
-        tag: ["All", "Web", "Mobile"],
-        gitUrl: 'https://github.com/Gagan2601/text-editor',
-        previewUrl: 'https://text-editor-gagan2601.vercel.app/',
-    },
+    }
 ]
 
 const ProjectsSection = () => {
