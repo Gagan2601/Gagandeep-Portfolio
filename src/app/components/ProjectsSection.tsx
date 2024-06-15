@@ -58,7 +58,25 @@ const projectData = [
         tag: ["All", "Web"],
         gitUrl: 'https://github.com/Gagan2601/newsapp',
         previewUrl: '',
-    }
+    },
+    {
+        id: 7,
+        title: "ShadowTalk Website",
+        description: "Introducing ShadowTalk – an anonymous public chat room app. Enjoy secure, private conversations with no data storage. Join the community and chat freely, knowing your privacy is protected.",
+        image: "/images/projects/shadowtalk.png",
+        tag: ["All", "Web", "Mobile"],
+        gitUrl: 'https://github.com/Gagan2601/Shadow-Talk',
+        previewUrl: 'https://shadow-talk.vercel.app/',
+    },
+    {
+        id: 8,
+        title: "Todo App",
+        description: "The Todo App is a simple yet powerful task management application designed to help users organize their daily activities effectively. With a clean and intuitive user interface, this app allows users to create and delete tasks effortlessly. ",
+        image: "/images/projects/todo_app.png",
+        tag: ["All", "Web"],
+        gitUrl: 'https://github.com/Gagan2601/Todo-app',
+        previewUrl: 'https://todo-app-lyart-xi.vercel.app/',
+    },
 ]
 
 const ProjectsSection = () => {
