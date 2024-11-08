@@ -7,10 +7,10 @@ import Link from 'next/link';
 
 const HeroSection = () => {
     const handleDownload = () => {
-        const downloadUrl = '/Resume.pdf';
+        const downloadUrl = '/Gagandeep_Resume.pdf';
         const link = document.createElement('a');
         link.href = downloadUrl;
-        link.setAttribute('download', 'Resume.pdf');
+        link.setAttribute('download', 'Gagandeep_Resume.pdf');
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
