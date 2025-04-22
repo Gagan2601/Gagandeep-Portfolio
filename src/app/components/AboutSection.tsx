@@ -16,7 +16,10 @@ const TAB_DATA = [
                 <li>Node.js</li>
                 <li>Express</li>
                 <li>MongoDB</li>
+                <li>MySql</li>
                 <li>Socket.io</li>
+                <li>Prisma</li>
+                <li>Supabase</li>
             </ul>
         )
     },

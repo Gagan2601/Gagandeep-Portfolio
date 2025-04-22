@@ -6,6 +6,15 @@ import { motion, useInView } from "framer-motion";
 
 const projectData = [
     {
+        id: 0,
+        title: "Hacker Hire Website",
+        description: "Hacker Hire is a real-time technical interview platform featuring a collaborative code editor, video conferencing, AI-based monitoring, and a shared whiteboard for diagram-based problem solving.",
+        image: "/images/projects/hacker-hire.png",
+        tag: ["All", "Web"],
+        gitUrl: 'https://github.com/Gagan2601/hacker-hire',
+        previewUrl: 'https://hacker-hire-one.vercel.app/',
+    },
+    {
         id: 1,
         title: "ShadowTalk Website",
         description: "Introducing ShadowTalk – an anonymous public and private chat room app. Enjoy secure, private conversations with no data storage. Join the community and chat freely, knowing your privacy is protected.",
@@ -71,13 +80,14 @@ const projectData = [
     {
         id: 8,
         title: "Todo App",
-        description: "The Todo App is a simple yet powerful task management application designed to help users organize their daily activities effectively. With a clean and intuitive user interface, this app allows users to create and delete tasks effortlessly. ",
+        description: "The Todo App is a simple yet powerful task management application designed to help users organize their daily activities effectively. With a clean and intuitive user interface, this app allows users to create and delete tasks effortlessly.",
         image: "/images/projects/todo_app.png",
         tag: ["All", "Web"],
         gitUrl: 'https://github.com/Gagan2601/Todo-app',
         previewUrl: 'https://todo-app-lyart-xi.vercel.app/',
     },
-]
+];
+
 
 const ProjectsSection = () => {
     const [tag, setTag] = useState("All");
